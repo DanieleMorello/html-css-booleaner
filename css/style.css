@@ -6,11 +6,7 @@
 }
 
 main {
-  margin: 0 15%;
-}
-
-section, table, div {
-  margin-left: 5px;
+  margin: 0 14%;
 }
 
 ul {
@@ -18,7 +14,7 @@ ul {
 }
 
 header {
-  background: url("img/pattern.png");
+  background-image: url("../img/pattern.png");
   background-color: #4EA0FF;
 }
 
@@ -32,7 +28,7 @@ header > div > img {
 
 h1 {
   margin-top: 20px;
-  font-size: 49px;
+  font-size: 38px;
 }
 
 .grey-span {
@@ -52,8 +48,18 @@ figure {
 }
 
 table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+table, 
+th,
+td {
   border-spacing: 0;
   margin-top: 30px;
+  text-align: start;
+  font-weight: bold;
 }
 
 thead {
@@ -61,8 +67,12 @@ thead {
   color: #FFFFFF;
 }
 
-.blue {
+tbody tr:nth-child(odd) {
   background-color: #B1E5F2;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #fff;
 }
 
 #interests > h2 {
@@ -71,12 +81,12 @@ thead {
 }
 
 #monitor {
-  background-image: url("/img/monitor.jpg");
+  background-image: url("../img/monitor.jpg");
   
 }
 
 #graph {
-  background-image: url("/img/graph.jpg");
+  background-image: url("../img/graph.jpg");
 }
 
 #monitor,
