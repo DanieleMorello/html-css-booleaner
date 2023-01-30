@@ -1,3 +1,10 @@
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header {
   background: url("/img/pattern.png");
   background-color: #4EA0FF;
