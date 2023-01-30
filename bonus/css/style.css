@@ -2,6 +2,10 @@
   background-color: #4EA0FF;
 }
 
-span {
+.blue-span {
   color: #32B0E7;
+}
+
+.yellow-span {
+  background-color: #FFFF00;
 }
