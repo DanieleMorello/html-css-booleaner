@@ -16,3 +16,29 @@ header > div > img {
   padding-left: 5px;
   padding-bottom: 22px;
 }
+
+.grey-span {
+  color: #C4DFE9;
+}
+
+.blue-span {
+  color: #32B0E7;
+}
+
+.yellow-span {
+  background-color: #FFFF00;
+}
+
+table {
+  border-spacing: 0;
+  
+}
+
+thead {
+  background-color: #20A9E5;
+  color: #FFFFFF;
+}
+
+.blue {
+  background-color: #B1E5F2;
+}
